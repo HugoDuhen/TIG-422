@@ -1,0 +1,7805 @@
+{
+  "chambres": [
+    {
+      "id": "CH103",
+      "cdc": "COLLAS",
+      "eleves": [
+        "COLLAS",
+        "DUHEN",
+        "MARTIN",
+        "BERNARD"
+      ]
+    },
+    {
+      "id": "CH104",
+      "cdc": "PETIT",
+      "eleves": [
+        "PETIT",
+        "DURAND",
+        "LEROY",
+        "MOREAU",
+        "SIMON"
+      ]
+    },
+    {
+      "id": "CH105",
+      "cdc": "LAURENT",
+      "eleves": [
+        "LAURENT",
+        "LEFEBVRE",
+        "MICHEL",
+        "GARCIA",
+        "DAVID",
+        "BERTRAND"
+      ]
+    },
+    {
+      "id": "CH106",
+      "cdc": "ROUX",
+      "eleves": [
+        "ROUX",
+        "VINCENT",
+        "FOURNIER",
+        "MOREL",
+        "GIRARD"
+      ]
+    },
+    {
+      "id": "CH108",
+      "cdc": "ANDRE",
+      "eleves": [
+        "ANDRE",
+        "MERCIER",
+        "DUPONT",
+        "LAMBERT",
+        "BONNET",
+        "FRANCOIS"
+      ]
+    }
+  ],
+  "zonesSection": [
+    "Couloir",
+    "Toilettes",
+    "Douches",
+    "Salle de cours"
+  ],
+  "zonesCompagnie": [
+    "Escaliers",
+    "Hall d'entrée",
+    "Couloir RDC",
+    "Pédiluve",
+    "Sanitaires"
+  ],
+  "jours": [
+    {
+      "date": "2026-09-15",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-09-20",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-09-21",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-09-27",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-09-28",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-04",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-05",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "tig": false,
+      "motif": "TRN D01",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-07",
+      "tig": false,
+      "motif": "TRN D01",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-08",
+      "tig": false,
+      "motif": "TRN D01",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-09",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-11",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-12",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-18",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-19",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-25",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-10-26",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-01",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-02",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-08",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-09",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-15",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-16",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "tig": false,
+      "motif": "TRN D02",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-18",
+      "tig": false,
+      "motif": "TRN D02",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-19",
+      "tig": false,
+      "motif": "TRN D02",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-20",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-22",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-23",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-29",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-11-30",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-06",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-07",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-11",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-13",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-14",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-20",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-21",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-27",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2026-12-28",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-01",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-02",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-03",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-04",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-05",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-06",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-07",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-08",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-09",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-10",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-11",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-12",
+      "tig": false,
+      "motif": "TRN D03",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-13",
+      "tig": false,
+      "motif": "TRN D03",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-14",
+      "tig": false,
+      "motif": "TRN D03",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-15",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-16",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-17",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-18",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-19",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-20",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-21",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-23",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-24",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-25",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-26",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-27",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-28",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-29",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-30",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-01-31",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-01",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-02",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-03",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-04",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-05",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-06",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-07",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-08",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-09",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-10",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-11",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-12",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-13",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-14",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-15",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-16",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-17",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-18",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-19",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-20",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-21",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-23",
+      "tig": false,
+      "motif": "TRN D04",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-24",
+      "tig": false,
+      "motif": "TRN D04",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-25",
+      "tig": false,
+      "motif": "TRN D04",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-26",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-27",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-02-28",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-01",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-02",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-03",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-04",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-05",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-06",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-07",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-08",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-09",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-10",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-11",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-12",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-13",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-14",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-15",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-16",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-17",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-18",
+      "tig": false,
+      "motif": "Camp La Courtine",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-19",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-20",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-21",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-22",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-23",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-24",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-25",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-26",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-27",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-28",
+      "tig": false,
+      "motif": "Week-end",
+      "section": [],
+      "compagnie": []
+    },
+    {
+      "date": "2027-03-29",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH108",
+          "eleve": "DUPONT",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GIRARD",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FRANCOIS",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "MOREAU",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "PETIT",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-30",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH104",
+          "eleve": "DURAND",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LEROY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LAURENT",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "SIMON",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LEFEBVRE",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "BERNARD",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "MARTIN",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "BERTRAND",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "ROUX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "DAVID",
+          "zone": "Sanitaires"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-31",
+      "tig": true,
+      "motif": null,
+      "section": [
+        {
+          "chambre": "CH105",
+          "eleve": "MICHEL",
+          "zone": "Couloir"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "VINCENT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "GARCIA",
+          "zone": "Douches"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "FOURNIER",
+          "zone": "Salle de cours"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "MOREL",
+          "zone": "Salle de cours"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "MERCIER",
+          "zone": "Escaliers"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "LAMBERT",
+          "zone": "Hall d'entrée"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "ANDRE",
+          "zone": "Couloir RDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "BONNET",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Sanitaires"
+        }
+      ]
+    }
+  ]
+}
