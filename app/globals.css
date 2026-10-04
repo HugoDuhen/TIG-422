@@ -90,17 +90,28 @@ body {
   margin: 16px 0;
 }
 
+.date-nav {
+  justify-content: center;
+}
+
 .date-nav button {
-  border: 1px solid var(--color-border);
+  border: none;
   background: var(--color-surface);
-  border-radius: var(--radius);
-  padding: 6px 12px;
+  box-shadow: var(--shadow);
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  flex: none;
 }
 
 .date-nav button:hover:not(:disabled) {
-  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .date-nav button:disabled {
@@ -109,14 +120,20 @@ body {
 }
 
 .date-nav input[type="date"] {
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 6px 8px;
+  border: none;
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  border-radius: 999px;
+  padding: 8px 16px;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 .date-nav-label {
-  font-weight: 600;
+  flex-basis: 100%;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-weight: 500;
 }
 
 .motif-banner {
@@ -138,6 +155,56 @@ body {
   .jour-grid {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.poste-group-title {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.poste-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 520px) {
+  .poste-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.poste-card {
+  background: var(--color-surface);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 16px 20px;
+}
+
+.poste-card-zone {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.poste-card-eleve {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.poste-card-chambre {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 2px;
 }
 
 .table-wrap {

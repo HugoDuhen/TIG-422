@@ -255,8 +255,8 @@ function VueJour({ selectedDate, onChangeDate }) {
         <p className="motif-banner">Pas de TIG — {jour.motif}</p>
       ) : (
         <div className="jour-grid">
-          <PosteTable title="TIG section" entries={jour.section} />
-          <PosteTable
+          <PosteCards title="TIG section" entries={jour.section} />
+          <PosteCards
             title={
               jour.lettre ? `TIG compagnie — Jour ${jour.lettre}` : "TIG compagnie"
             }
@@ -297,28 +297,19 @@ function DateNav({ selectedDate, onChangeDate }) {
   );
 }
 
-function PosteTable({ title, entries }) {
+function PosteCards({ title, entries }) {
   return (
-    <div className="table-wrap">
-      <h2>{title}</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Zone</th>
-            <th>Élève</th>
-            <th>Chambre</th>
-          </tr>
-        </thead>
-        <tbody>
-          {entries.map((entry, i) => (
-            <tr key={`${entry.zone}-${i}`}>
-              <td>{entry.zone}</td>
-              <td>{entry.eleve}</td>
-              <td>{entry.chambre}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="poste-group">
+      <h2 className="poste-group-title">{title}</h2>
+      <div className="poste-cards">
+        {entries.map((entry, i) => (
+          <div className="poste-card" key={`${entry.zone}-${i}`}>
+            <div className="poste-card-zone">{entry.zone}</div>
+            <div className="poste-card-eleve">{entry.eleve}</div>
+            <div className="poste-card-chambre">{entry.chambre}</div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
