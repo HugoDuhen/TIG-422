@@ -122,7 +122,24 @@ const JOURS = planningData.jours;
 const CHAMBRES = planningData.chambres;
 const ZONES_SECTION = planningData.zonesSection;
 const ZONES_COMPAGNIE = planningData.zonesCompagnie;
-const POSTES = [...ZONES_SECTION, ...ZONES_COMPAGNIE];
+
+// Certaines zones portent le même nom en section et en compagnie
+// (ex. "Toilettes", "Couloirs") : on les distingue par catégorie pour
+// que le récap ne mélange pas les deux compteurs.
+const RECAP_COLUMNS = [
+  ...ZONES_SECTION.map((zone) => ({
+    key: `section:${zone}`,
+    label: `${zone} (section)`,
+    category: "section",
+    zone,
+  })),
+  ...ZONES_COMPAGNIE.map((zone) => ({
+    key: `compagnie:${zone}`,
+    label: `${zone} (compagnie)`,
+    category: "compagnie",
+    zone,
+  })),
+];
 
 const MIN_DATE = JOURS[0].date;
 const MAX_DATE = JOURS[JOURS.length - 1].date;
@@ -239,7 +256,12 @@ function VueJour({ selectedDate, onChangeDate }) {
       ) : (
         <div className="jour-grid">
           <PosteTable title="TIG section" entries={jour.section} />
-          <PosteTable title="TIG compagnie" entries={jour.compagnie} />
+          <PosteTable
+            title={
+              jour.lettre ? `TIG compagnie — Jour ${jour.lettre}` : "TIG compagnie"
+            }
+            entries={jour.compagnie}
+          />
         </div>
       )}
     </section>
@@ -553,7 +575,7 @@ function VueRecap() {
         counts.set(eleve, {
           eleve,
           chambre: ch.id,
-          postes: Object.fromEntries(POSTES.map((p) => [p, 0])),
+          postes: Object.fromEntries(RECAP_COLUMNS.map((c) => [c.key, 0])),
           total: 0,
         });
       }
@@ -561,10 +583,16 @@ function VueRecap() {
 
     for (const jour of JOURS) {
       if (!jour.tig) continue;
-      for (const entry of [...jour.section, ...jour.compagnie]) {
+      for (const entry of jour.section) {
         const row = counts.get(entry.eleve);
         if (!row) continue;
-        row.postes[entry.zone] += 1;
+        row.postes[`section:${entry.zone}`] += 1;
+        row.total += 1;
+      }
+      for (const entry of jour.compagnie) {
+        const row = counts.get(entry.eleve);
+        if (!row) continue;
+        row.postes[`compagnie:${entry.zone}`] += 1;
         row.total += 1;
       }
     }
@@ -583,8 +611,8 @@ function VueRecap() {
             <tr>
               <th>Élève</th>
               <th>Chambre</th>
-              {POSTES.map((p) => (
-                <th key={p}>{p}</th>
+              {RECAP_COLUMNS.map((c) => (
+                <th key={c.key}>{c.label}</th>
               ))}
               <th>Total</th>
             </tr>
@@ -594,8 +622,8 @@ function VueRecap() {
               <tr key={row.eleve}>
                 <td>{row.eleve}</td>
                 <td>{row.chambre}</td>
-                {POSTES.map((p) => (
-                  <td key={p}>{row.postes[p]}</td>
+                {RECAP_COLUMNS.map((c) => (
+                  <td key={c.key}>{row.postes[c.key]}</td>
                 ))}
                 <td className="total-cell">{row.total}</td>
               </tr>
