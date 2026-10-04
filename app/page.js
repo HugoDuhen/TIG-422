@@ -174,6 +174,27 @@ function defaultDate() {
   return clampDate(today);
 }
 
+const STAIR_ICON = (
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#1c2541" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M3 21h4v-4h4v-4h4v-4h4V5" />
+  </svg>
+);
+
+const ZONE_ICONS = {
+  "Couloirs nouveau bâtiment": "🏢",
+  "Couloirs": "🚪",
+  "Toilettes": "🚽",
+  "SDC": "📘",
+  "Pédiluve": "👟",
+  "Douche": "🚿",
+  "Escaliers (+ hall)": STAIR_ICON,
+};
+
+function ZoneIcon({ zone }) {
+  const icon = ZONE_ICONS[zone] ?? "📌";
+  return <span className="icon-circle">{icon}</span>;
+}
+
 function groupByZone(entries) {
   const map = {};
   for (const entry of entries) {
@@ -185,12 +206,15 @@ function groupByZone(entries) {
 
 // Quand une zone a plusieurs élèves le même jour (ex. "SDC" x2), chacun
 // reçoit sa propre petite case plutôt que d'être fondu dans un texte unique.
-function NameChips({ names }) {
+function NameChips({ names, category }) {
   if (!names || names.length === 0) return "—";
   return (
     <div className="name-chips">
       {names.map((name, i) => (
-        <span className="name-chip" key={`${name}-${i}`}>
+        <span
+          className={`name-chip ${name === "423" ? "autre" : category}`}
+          key={`${name}-${i}`}
+        >
           {name}
         </span>
       ))}
@@ -213,7 +237,13 @@ export default function Page() {
   return (
     <div className="page">
       <header className="app-header">
-        <h1>Planning TIG · 422</h1>
+        <div className="brand">
+          <div className="brand-badge">422</div>
+          <div>
+            <h1>Planning TIG</h1>
+            <p className="brand-subtitle">395<sup>e</sup> promotion · 4<sup>e</sup> bataillon</p>
+          </div>
+        </div>
         <nav className="tabs">
           {TABS.map((tab) => (
             <button
@@ -270,12 +300,13 @@ function VueJour({ selectedDate, onChangeDate }) {
         <p className="motif-banner">Pas de TIG — {jour.motif}</p>
       ) : (
         <div className="jour-grid">
-          <PosteCards title="TIG section" entries={jour.section} />
+          <PosteCards title="TIG section" entries={jour.section} category="section" />
           <PosteCards
             title={
               jour.lettre ? `TIG compagnie — Jour ${jour.lettre}` : "TIG compagnie"
             }
             entries={jour.compagnie}
+            category="compagnie"
           />
         </div>
       )}
@@ -284,6 +315,7 @@ function VueJour({ selectedDate, onChangeDate }) {
 }
 
 function DateNav({ selectedDate, onChangeDate }) {
+  const jour = JOURS_BY_DATE.get(selectedDate);
   return (
     <div className="date-nav">
       <button
@@ -294,13 +326,22 @@ function DateNav({ selectedDate, onChangeDate }) {
       >
         ←
       </button>
-      <input
-        type="date"
-        value={selectedDate}
-        min={MIN_DATE}
-        max={MAX_DATE}
-        onChange={(e) => e.target.value && onChangeDate(e.target.value)}
-      />
+      <div className="date-center">
+        <input
+          type="date"
+          value={selectedDate}
+          min={MIN_DATE}
+          max={MAX_DATE}
+          onChange={(e) => e.target.value && onChangeDate(e.target.value)}
+        />
+        <div className="date-nav-label">{formatDateLong(selectedDate)}</div>
+        {jour?.lettre && (
+          <div className="letter-badge">
+            <span className="dot" />
+            Jour {jour.lettre}
+          </div>
+        )}
+      </div>
       <button
         type="button"
         className="date-nav-arrow"
@@ -309,29 +350,39 @@ function DateNav({ selectedDate, onChangeDate }) {
       >
         →
       </button>
-      <span className="date-nav-label">{formatDateLong(selectedDate)}</span>
     </div>
   );
 }
 
-function PosteCards({ title, entries }) {
+function PosteCards({ title, entries, category }) {
   const grouped = groupByZone(entries);
   const zones = Object.keys(grouped);
   return (
     <div className="poste-group">
-      <h2 className="poste-group-title">{title}</h2>
+      <div className={`group-head ${category}`}>
+        <div className="bar" />
+        <h2 className="poste-group-title">{title}</h2>
+        <div className="count">{entries.length} postes</div>
+      </div>
       <div className="poste-cards">
-        {zones.map((zone) => (
-          <div className="poste-card" key={zone}>
-            <div className="poste-card-zone">{zone}</div>
-            {grouped[zone].map((entry, i) => (
-              <div className="poste-card-eleve-row" key={`${entry.eleve}-${i}`}>
-                <div className="poste-card-eleve">{entry.eleve}</div>
-                <div className="poste-card-chambre">{entry.chambre}</div>
+        {zones.map((zone) => {
+          const isAutre = grouped[zone].every((e) => e.eleve === "423");
+          const cardCategory = isAutre ? "autre" : category;
+          return (
+            <div className={`poste-card ${cardCategory}`} key={zone}>
+              <ZoneIcon zone={zone} />
+              <div className="card-body">
+                <div className="poste-card-zone">{zone}</div>
+                {grouped[zone].map((entry, i) => (
+                  <div className="poste-card-eleve-row" key={`${entry.eleve}-${i}`}>
+                    <div className="poste-card-eleve">{entry.eleve}</div>
+                    <div className="poste-card-chambre">{entry.chambre}</div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        ))}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -367,18 +418,19 @@ function VueSemaine({ selectedDate, onChangeDate }) {
         </button>
       </div>
 
-      <SemaineTable title="TIG section" zones={ZONES_SECTION} dates={weekDates} field="section" />
+      <SemaineTable title="TIG section" zones={ZONES_SECTION} dates={weekDates} field="section" category="section" />
       <SemaineTable
         title="TIG compagnie"
         zones={ZONES_COMPAGNIE}
         dates={weekDates}
         field="compagnie"
+        category="compagnie"
       />
     </section>
   );
 }
 
-function SemaineTable({ title, zones, dates, field }) {
+function SemaineTable({ title, zones, dates, field, category }) {
   return (
     <div className="table-wrap">
       <h2>{title}</h2>
@@ -408,7 +460,7 @@ function SemaineTable({ title, zones, dates, field }) {
                 const names = (grouped[zone] || []).map((e) => e.eleve);
                 return (
                   <td key={date}>
-                    <NameChips names={names} />
+                    <NameChips names={names} category={category} />
                   </td>
                 );
               })}
@@ -458,18 +510,19 @@ function VueMois({ visibleMonth, onChangeMonth }) {
         </button>
       </div>
 
-      <MoisTable title="TIG section" zones={ZONES_SECTION} dates={monthDates} field="section" />
+      <MoisTable title="TIG section" zones={ZONES_SECTION} dates={monthDates} field="section" category="section" />
       <MoisTable
         title="TIG compagnie"
         zones={ZONES_COMPAGNIE}
         dates={monthDates}
         field="compagnie"
+        category="compagnie"
       />
     </section>
   );
 }
 
-function MoisTable({ title, zones, dates, field }) {
+function MoisTable({ title, zones, dates, field, category }) {
   return (
     <div className="table-wrap">
       <h2>{title}</h2>
@@ -501,7 +554,10 @@ function MoisTable({ title, zones, dates, field }) {
                 <td>{formatDateShort(date)}</td>
                 {zones.map((zone) => (
                   <td key={zone}>
-                    <NameChips names={(grouped[zone] || []).map((e) => e.eleve)} />
+                    <NameChips
+                      names={(grouped[zone] || []).map((e) => e.eleve)}
+                      category={category}
+                    />
                   </td>
                 ))}
               </tr>
