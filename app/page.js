@@ -315,15 +315,21 @@ function DateNav({ selectedDate, onChangeDate }) {
 }
 
 function PosteCards({ title, entries }) {
+  const grouped = groupByZone(entries);
+  const zones = Object.keys(grouped);
   return (
     <div className="poste-group">
       <h2 className="poste-group-title">{title}</h2>
       <div className="poste-cards">
-        {entries.map((entry, i) => (
-          <div className="poste-card" key={`${entry.zone}-${i}`}>
-            <div className="poste-card-zone">{entry.zone}</div>
-            <div className="poste-card-eleve">{entry.eleve}</div>
-            <div className="poste-card-chambre">{entry.chambre}</div>
+        {zones.map((zone) => (
+          <div className="poste-card" key={zone}>
+            <div className="poste-card-zone">{zone}</div>
+            {grouped[zone].map((entry, i) => (
+              <div className="poste-card-eleve-row" key={`${entry.eleve}-${i}`}>
+                <div className="poste-card-eleve">{entry.eleve}</div>
+                <div className="poste-card-chambre">{entry.chambre}</div>
+              </div>
+            ))}
           </div>
         ))}
       </div>

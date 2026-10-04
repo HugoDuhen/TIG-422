@@ -202,6 +202,12 @@ body {
   margin-bottom: 6px;
 }
 
+.poste-card-eleve-row + .poste-card-eleve-row {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--color-border);
+}
+
 .poste-card-eleve {
   font-size: 1.15rem;
   font-weight: 700;
