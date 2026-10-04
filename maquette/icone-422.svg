@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .num { font-family: 'Poppins', 'Arial', sans-serif; font-weight: 800; }
+    </style>
+  </defs>
+
+  <!-- fond -->
+  <rect x="0" y="0" width="512" height="512" fill="#ffffff"/>
+
+  <!-- "422" en vert -->
+  <text x="256" y="260" class="num" font-size="220" fill="#1a8a46" text-anchor="middle">422</text>
+
+  <!-- balai et serpillere croises devant, comme des epees, sur toute la diagonale -->
+  <g stroke="#ffffff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round">
+    <!-- BALAI : manche bas-gauche vers haut-droite, tete en haut-droite -->
+    <g fill="#0f6b34">
+      <rect x="-19" y="-300" width="38" height="600" rx="19" transform="translate(256,430) rotate(-45)"/>
+      <!-- garde (poignee), bout bas-gauche -->
+      <g transform="translate(256,430) rotate(-45) translate(0,300)">
+        <rect x="-50" y="-16" width="100" height="32" rx="12" fill="#0f6b34"/>
+        <circle cx="0" cy="34" r="20" fill="#0f6b34"/>
+      </g>
+      <!-- tete du balai (eventail), bout haut-droite -->
+      <g transform="translate(256,430) rotate(-45) translate(0,-300)">
+        <path d="M -84 0 L 84 0 L 62 94 Q 0 116 -62 94 Z" fill="#e4b23c" stroke="#0f6b34" stroke-width="10"/>
+        <rect x="-40" y="-34" width="80" height="34" fill="#0f6b34"/>
+        <path d="M -54 0 L -47 90 M -24 0 L -18 100 M 3 0 L 3 106 M 29 0 L 22 100 M 54 0 L 44 90" stroke="#0f6b34" stroke-width="8" fill="none"/>
+      </g>
+    </g>
+
+    <!-- SERPILLERE/MOP : manche bas-droite vers haut-gauche, tete en haut-gauche -->
+    <g fill="#0f6b34">
+      <rect x="-19" y="-300" width="38" height="600" rx="19" transform="translate(256,430) rotate(45)"/>
+      <!-- garde (poignee), bout bas-droite -->
+      <g transform="translate(256,430) rotate(45) translate(0,300)">
+        <rect x="-50" y="-16" width="100" height="32" rx="12" fill="#0f6b34"/>
+        <circle cx="0" cy="34" r="20" fill="#0f6b34"/>
+      </g>
+      <g transform="translate(256,430) rotate(45) translate(0,-300)">
+        <rect x="-60" y="-40" width="120" height="44" rx="12" fill="#0f6b34"/>
+        <path d="M -60 6 Q -46 52 -60 92 M -29 6 Q -15 47 -29 90 M 0 6 Q 14 52 0 96 M 29 6 Q 43 47 29 90 M 60 6 Q 46 52 60 92"
+              stroke="#cfd6cf" stroke-width="11" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
