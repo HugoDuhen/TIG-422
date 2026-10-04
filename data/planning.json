@@ -59,21 +59,14 @@
     "Couloirs nouveau bâtiment",
     "Couloirs",
     "Toilettes",
-    "SDC",
-    "Couloir",
-    "Douches",
-    "Salle de cours"
+    "SDC"
   ],
   "zonesCompagnie": [
     "Toilettes",
     "Pédiluve",
     "Douche",
     "Couloirs",
-    "Escaliers (+ hall)",
-    "Escaliers",
-    "Hall d'entrée",
-    "Couloir RDC",
-    "Sanitaires"
+    "Escaliers (+ hall)"
   ],
   "jours": [
     {
