@@ -183,6 +183,21 @@ function groupByZone(entries) {
   return map;
 }
 
+// Quand une zone a plusieurs élèves le même jour (ex. "SDC" x2), chacun
+// reçoit sa propre petite case plutôt que d'être fondu dans un texte unique.
+function NameChips({ names }) {
+  if (!names || names.length === 0) return "—";
+  return (
+    <div className="name-chips">
+      {names.map((name, i) => (
+        <span className="name-chip" key={`${name}-${i}`}>
+          {name}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 // ---------------------------------------------------------------------------
 // Composant principal
 // ---------------------------------------------------------------------------
@@ -273,6 +288,7 @@ function DateNav({ selectedDate, onChangeDate }) {
     <div className="date-nav">
       <button
         type="button"
+        className="date-nav-arrow"
         onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, -1)))}
         aria-label="Jour précédent"
       >
@@ -287,6 +303,7 @@ function DateNav({ selectedDate, onChangeDate }) {
       />
       <button
         type="button"
+        className="date-nav-arrow"
         onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, 1)))}
         aria-label="Jour suivant"
       >
@@ -383,7 +400,11 @@ function SemaineTable({ title, zones, dates, field }) {
                 if (!jour.tig) return <td key={date}>—</td>;
                 const grouped = groupByZone(jour[field]);
                 const names = (grouped[zone] || []).map((e) => e.eleve);
-                return <td key={date}>{names.join(", ") || "—"}</td>;
+                return (
+                  <td key={date}>
+                    <NameChips names={names} />
+                  </td>
+                );
               })}
             </tr>
           ))}
@@ -474,7 +495,7 @@ function MoisTable({ title, zones, dates, field }) {
                 <td>{formatDateShort(date)}</td>
                 {zones.map((zone) => (
                   <td key={zone}>
-                    {(grouped[zone] || []).map((e) => e.eleve).join(", ") || "—"}
+                    <NameChips names={(grouped[zone] || []).map((e) => e.eleve)} />
                   </td>
                 ))}
               </tr>
