@@ -181,7 +181,7 @@ const STAIR_ICON = (
 );
 
 const ZONE_ICONS = {
-  "Couloirs nouveau bâtiment": "🏢",
+  "Bureau CDS": "🏢",
   "Couloirs": "🚪",
   "Toilettes": "🚽",
   "SDC": "📘",

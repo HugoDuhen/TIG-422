@@ -56,7 +56,7 @@
     }
   ],
   "zonesSection": [
-    "Couloirs nouveau bâtiment",
+    "Bureau CDS",
     "Couloirs",
     "Toilettes",
     "SDC"
@@ -841,12 +841,12 @@
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -916,12 +916,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -991,12 +991,12 @@
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -1066,12 +1066,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -1141,12 +1141,12 @@
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -1230,12 +1230,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -1305,12 +1305,12 @@
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -1380,12 +1380,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -1455,12 +1455,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -1530,12 +1530,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -1668,12 +1668,12 @@
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -1743,12 +1743,12 @@
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -1818,12 +1818,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -1893,12 +1893,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -1968,12 +1968,12 @@
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -2057,12 +2057,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -2132,12 +2132,12 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -2221,12 +2221,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -2310,12 +2310,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -2385,12 +2385,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -2460,12 +2460,12 @@
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -2535,12 +2535,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -2610,12 +2610,12 @@
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -2699,12 +2699,12 @@
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -2774,12 +2774,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -2849,12 +2849,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -2924,12 +2924,12 @@
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -2999,12 +2999,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -3088,12 +3088,12 @@
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -3163,12 +3163,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -3252,12 +3252,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -3341,12 +3341,12 @@
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -3416,12 +3416,12 @@
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -3491,12 +3491,12 @@
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -3566,12 +3566,12 @@
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -3641,12 +3641,12 @@
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -3730,12 +3730,12 @@
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -3805,12 +3805,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -3880,12 +3880,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -3955,12 +3955,12 @@
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -4030,12 +4030,12 @@
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -4119,12 +4119,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -4194,12 +4194,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -4269,12 +4269,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -4344,12 +4344,12 @@
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -4419,12 +4419,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -4606,12 +4606,12 @@
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -4681,12 +4681,12 @@
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -4756,12 +4756,12 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -4838,12 +4838,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -4927,12 +4927,12 @@
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -5002,12 +5002,12 @@
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -5077,12 +5077,12 @@
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -5152,12 +5152,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -5227,12 +5227,12 @@
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -5316,12 +5316,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -5391,12 +5391,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -5466,12 +5466,12 @@
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -5541,12 +5541,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -5616,12 +5616,12 @@
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -5705,12 +5705,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -5780,12 +5780,12 @@
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -5855,12 +5855,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -5930,12 +5930,12 @@
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -6005,12 +6005,12 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -6094,12 +6094,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -6169,12 +6169,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -6244,12 +6244,12 @@
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -6319,12 +6319,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -6394,12 +6394,12 @@
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -6483,12 +6483,12 @@
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -6558,12 +6558,12 @@
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -6633,12 +6633,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -6708,12 +6708,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -6783,12 +6783,12 @@
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -6872,12 +6872,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -6947,12 +6947,12 @@
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -7022,12 +7022,12 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -7097,12 +7097,12 @@
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -7172,12 +7172,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -7261,12 +7261,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -7336,12 +7336,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -7411,12 +7411,12 @@
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -7486,12 +7486,12 @@
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -7561,12 +7561,12 @@
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -7650,12 +7650,12 @@
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -7725,12 +7725,12 @@
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -7800,12 +7800,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -7875,12 +7875,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -7950,12 +7950,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -8039,12 +8039,12 @@
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -8114,12 +8114,12 @@
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -8189,12 +8189,12 @@
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -8264,12 +8264,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -8339,12 +8339,12 @@
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -8428,12 +8428,12 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -8503,12 +8503,12 @@
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -8578,12 +8578,12 @@
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -8653,12 +8653,12 @@
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -8728,12 +8728,12 @@
         {
           "chambre": "CH108",
           "eleve": "FESTA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -8817,12 +8817,12 @@
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -8892,12 +8892,12 @@
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -8967,12 +8967,12 @@
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -9042,12 +9042,12 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
@@ -9117,12 +9117,12 @@
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
@@ -9206,12 +9206,12 @@
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
@@ -9281,12 +9281,12 @@
         {
           "chambre": "CH104",
           "eleve": "DROUET",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
@@ -9356,12 +9356,12 @@
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs nouveau bâtiment"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
