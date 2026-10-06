@@ -914,8 +914,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
@@ -951,8 +951,8 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Couloirs"
         },
         {
@@ -989,8 +989,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
@@ -1064,8 +1064,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
@@ -1140,7 +1140,7 @@
       "section": [
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
