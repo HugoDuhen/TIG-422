@@ -1816,55 +1816,55 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Bureau CDS"
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
-          "zone": "Bureau CDS"
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
+          "zone": "SDC"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs"
-        },
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
         {
           "chambre": "CH108",
           "eleve": "RION",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Douche"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Douche"
         },
         {
@@ -1892,7 +1892,7 @@
       "section": [
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "TALACCHIA",
           "zone": "Bureau CDS"
         },
         {
@@ -1901,23 +1901,23 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "FAVRAY",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "SDC"
         },
         {
           "chambre": "CH104",
-          "eleve": "THUNOT",
+          "eleve": "FERRATON",
           "zone": "SDC"
         }
       ],
@@ -1971,50 +1971,50 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DA SILVA",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "RION",
-          "zone": "SDC"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
           "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
-          "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Douche"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Douche"
         },
         {
@@ -2056,22 +2056,22 @@
       "section": [
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "DUHEN",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Toilettes"
         },
         {
@@ -2080,25 +2080,25 @@
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
           "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2130,55 +2130,55 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH104",
-          "eleve": "FERRATON",
+          "eleve": "FAVRAY",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "LANOOTE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Douche"
         },
         {
@@ -2225,44 +2225,44 @@
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "RION",
           "zone": "Bureau CDS"
         },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2318,45 +2318,45 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "SDC"
-        },
-        {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
+          "zone": "Couloirs"
+        },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
-          "zone": "Pédiluve"
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
+          "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "Douche"
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "eleve": "FESTA",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Douche"
         },
         {
@@ -2383,13 +2383,13 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Bureau CDS"
         },
         {
@@ -2403,20 +2403,20 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
@@ -2425,8 +2425,8 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2463,50 +2463,50 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Couloirs"
+          "eleve": "LALLEMAND",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "DROUET",
           "zone": "SDC"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "FESTA",
+          "eleve": "FOUGEREUX",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Douche"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "FAVRAY",
           "zone": "Douche"
         },
         {
@@ -2534,13 +2534,40 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "FERRATON",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH105",
@@ -2549,34 +2576,7 @@
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "CAMARA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2608,55 +2608,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "DA SILVA",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Couloirs"
         },
+        {
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH108",
-          "eleve": "FESTA",
+          "eleve": "FOUGEREUX",
           "zone": "Douche"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Douche"
         },
         {
@@ -2698,12 +2698,12 @@
       "section": [
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "LANOOTE",
           "zone": "Bureau CDS"
         },
         {
@@ -2712,35 +2712,35 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "eleve": "FESTA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "FAVRAY",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2772,55 +2772,55 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH104",
-          "eleve": "THUNOT",
+          "eleve": "DROUET",
           "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
-          "zone": "Toilettes"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "SDC"
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "MOINE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Douche"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "HUCKEL",
           "zone": "Douche"
         },
         {
@@ -2848,12 +2848,12 @@
       "section": [
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "CAMARA",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "DA SILVA",
           "zone": "Bureau CDS"
         },
         {
@@ -2867,20 +2867,20 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Couloirs"
         },
         {
@@ -2889,8 +2889,8 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -2922,6 +2922,11 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH104",
           "eleve": "FAVRAY",
           "zone": "Bureau CDS"
@@ -2929,48 +2934,43 @@
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Bureau CDS"
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "Douche"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Douche"
         },
         {
@@ -2998,22 +2998,22 @@
       "section": [
         {
           "chambre": "CH105",
+          "eleve": "RACHEZ",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
           "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "GOIGOUX",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Toilettes"
         },
         {
@@ -3029,18 +3029,18 @@
       ],
       "compagnie": [
         {
+          "chambre": "CH108",
+          "eleve": "FESTA",
+          "zone": "Couloirs"
+        },
+        {
           "chambre": "CH103",
           "eleve": "COLLAS",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3086,8 +3086,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Bureau CDS"
         },
         {
@@ -3096,13 +3096,13 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "DROUET",
           "zone": "Toilettes"
         },
         {
@@ -3111,15 +3111,15 @@
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Toilettes"
         },
         {
@@ -3129,12 +3129,12 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ROBERT",
           "zone": "Douche"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "DA SILVA",
           "zone": "Douche"
         },
         {
@@ -3162,49 +3162,49 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "FERRATON",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "LANOOTE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "CAMARA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3251,12 +3251,12 @@
       "section": [
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "RION",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Bureau CDS"
         },
         {
@@ -3265,8 +3265,8 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Toilettes"
         },
         {
@@ -3298,7 +3298,7 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "LANOOTE",
           "zone": "Douche"
         },
         {
@@ -3339,13 +3339,13 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Bureau CDS"
         },
         {
@@ -3354,18 +3354,18 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "SDC"
         }
       ],
@@ -3377,12 +3377,12 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "ROBERT",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DA SILVA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3414,33 +3414,33 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "RION",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Toilettes"
+          "eleve": "CAMARA",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GAZON",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "SDC"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "COLLAS",
           "zone": "SDC"
         }
       ],
@@ -3451,18 +3451,18 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH103",
-          "eleve": "COLLAS",
+          "eleve": "DUHEN",
           "zone": "Douche"
         },
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "Douche"
         },
         {
@@ -3490,49 +3490,49 @@
       "section": [
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Toilettes"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "SDC"
+          "eleve": "DROUET",
+          "zone": "Bureau CDS"
         },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
           "zone": "Couloirs"
         },
         {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
+          "zone": "SDC"
+        },
+        {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ROBERT",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3564,55 +3564,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "RION",
           "zone": "Douche"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "COLLAS",
           "zone": "Douche"
         },
         {
@@ -3650,22 +3650,22 @@
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "SDC"
         }
       ],
@@ -3676,13 +3676,13 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3728,55 +3728,55 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH103",
           "eleve": "COLLAS",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Bureau CDS"
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Couloirs"
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
+          "zone": "SDC"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "MOINE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "RACHEZ",
           "zone": "Douche"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Douche"
         },
         {
@@ -3803,28 +3803,28 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
-          "zone": "Bureau CDS"
+          "eleve": "DA SILVA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
           "zone": "SDC"
         },
         {
@@ -3835,18 +3835,18 @@
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "DUHEN",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -3888,45 +3888,45 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         },
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "FERRATON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Douche"
         },
         {
@@ -3958,40 +3958,40 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "ROBERT",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "SDC"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
           "zone": "SDC"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "DA SILVA",
           "zone": "Couloirs"
         },
         {
@@ -4028,8 +4028,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Bureau CDS"
         },
         {
@@ -4038,8 +4038,8 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
@@ -4049,12 +4049,12 @@
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "COLLAS",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "SDC"
         }
       ],
@@ -4070,13 +4070,13 @@
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Douche"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Douche"
         },
         {
@@ -4128,34 +4128,34 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Couloirs"
         },
         {
@@ -4193,7 +4193,7 @@
       "section": [
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
           "zone": "Bureau CDS"
         },
         {
@@ -4202,23 +4202,23 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "SDC"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "SDC"
         }
       ],
@@ -4234,13 +4234,13 @@
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Douche"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "DUHEN",
           "zone": "Douche"
         },
         {
@@ -4267,23 +4267,23 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "COLLAS",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "LALLEMAND",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Toilettes"
         },
         {
@@ -4292,20 +4292,20 @@
           "zone": "SDC"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
@@ -4342,55 +4342,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "MOINE",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Toilettes"
-        },
-        {
           "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "SDC"
+          "eleve": "DA SILVA",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "HUCKEL",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
-          "zone": "Douche"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Douche"
         },
         {
@@ -4417,50 +4417,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "SDC"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
           "eleve": "GAZON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "FESTA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -4605,54 +4605,54 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "THUNOT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "SDC"
         },
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Douche"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "Douche"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
           "zone": "Douche"
         },
         {
@@ -4679,50 +4679,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "SDC"
         },
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
           "zone": "SDC"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -4754,50 +4754,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "SDC"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
           "zone": "SDC"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
-          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Douche"
         },
         {
@@ -4841,28 +4841,28 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "SDC"
         }
       ],
@@ -4873,13 +4873,13 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "eleve": "FOUGEREUX",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -4925,55 +4925,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "HUCKEL",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ROBERT",
           "zone": "Douche"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Douche"
         },
         {
@@ -5000,50 +5000,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Toilettes"
-        },
-        {
           "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "SDC"
+          "eleve": "FERRATON",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -5075,55 +5075,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "Bureau CDS"
+          "eleve": "GOIGOUX",
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "SDC"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "HUCKEL",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Douche"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Douche"
         },
         {
@@ -5150,33 +5150,33 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FESTA",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "SDC"
         }
       ],
@@ -5187,13 +5187,13 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -5225,55 +5225,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "MOINE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Toilettes"
+          "zone": "SDC"
         },
         {
           "chambre": "CH106",
           "eleve": "CAMARA",
           "zone": "SDC"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "HUCKEL",
           "zone": "Douche"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Douche"
         },
         {
@@ -5314,50 +5314,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Toilettes"
+          "eleve": "GAZON",
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "FAVRAY",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -5390,54 +5390,54 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUMORTIER",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "FERRATON",
           "zone": "SDC"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "LANOOTE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "GOIGOUX",
           "zone": "Douche"
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "DA SILVA",
           "zone": "Douche"
         },
         {
@@ -5464,45 +5464,45 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH108",
           "eleve": "HUCKEL",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "SDC"
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "GAZON",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "TALACCHIA",
           "zone": "Couloirs"
         },
         {
@@ -5544,23 +5544,23 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "DROUET",
           "zone": "SDC"
         },
         {
@@ -5577,17 +5577,17 @@
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "DROUET",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Douche"
         },
         {
@@ -5614,8 +5614,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Bureau CDS"
         },
         {
@@ -5630,26 +5630,21 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "RACHEZ",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs"
-        },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
@@ -5657,7 +5652,12 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ROBERT",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -5703,11 +5703,6 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH106",
           "eleve": "CAMARA",
           "zone": "Bureau CDS"
@@ -5715,21 +5710,26 @@
         {
           "chambre": "CH106",
           "eleve": "GAZON",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "HUCKEL",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "FOUGEREUX",
           "zone": "SDC"
         },
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "RION",
           "zone": "SDC"
         }
       ],
@@ -5741,17 +5741,17 @@
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "DROUET",
           "zone": "Douche"
         },
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "FERRATON",
           "zone": "Douche"
         },
         {
@@ -5784,44 +5784,44 @@
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUMORTIER",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "LALLEMAND",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
+          "eleve": "THUNOT",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "LANOOTE",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "DA SILVA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -5854,22 +5854,22 @@
       "section": [
         {
           "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
           "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "GOIGOUX",
           "zone": "Toilettes"
         },
         {
@@ -5886,22 +5886,22 @@
       "compagnie": [
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "TALACCHIA",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "RION",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Douche"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "COLLAS",
           "zone": "Douche"
         },
         {
@@ -5943,35 +5943,35 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUHEN",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "FERRATON",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6004,7 +6004,7 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
+          "eleve": "FAVRAY",
           "zone": "Bureau CDS"
         },
         {
@@ -6019,12 +6019,12 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "LANOOTE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
           "zone": "SDC"
         },
         {
@@ -6041,17 +6041,17 @@
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "GAZON",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Douche"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "HUCKEL",
           "zone": "Douche"
         },
         {
@@ -6092,13 +6092,13 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "RION",
           "zone": "Bureau CDS"
         },
         {
@@ -6107,35 +6107,35 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6167,55 +6167,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "SDC"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FESTA",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUMORTIER",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Douche"
         },
         {
@@ -6242,8 +6242,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Bureau CDS"
         },
         {
@@ -6257,35 +6257,35 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Couloirs"
-        },
-        {
           "chambre": "CH103",
-          "eleve": "COLLAS",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6317,55 +6317,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Douche"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "LANOOTE",
           "zone": "Douche"
         },
         {
@@ -6392,8 +6392,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Bureau CDS"
         },
         {
@@ -6402,40 +6402,40 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GAZON",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "SDC"
         },
         {
           "chambre": "CH105",
           "eleve": "ROBERT",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "RION",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
-          "eleve": "FESTA",
+          "eleve": "RION",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6482,54 +6482,54 @@
       "section": [
         {
           "chambre": "CH103",
-          "eleve": "COLLAS",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "DUHEN",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "Couloirs"
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Douche"
         },
         {
@@ -6556,8 +6556,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Bureau CDS"
         },
         {
@@ -6566,40 +6566,40 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "GAZON",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6631,55 +6631,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "Toilettes"
-        },
-        {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "SDC"
+          "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Couloirs"
+        },
         {
           "chambre": "CH105",
           "eleve": "RACHEZ",
           "zone": "Toilettes"
         },
         {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
+          "zone": "SDC"
+        },
+        {
           "chambre": "CH106",
           "eleve": "CAMARA",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Douche"
         },
         {
@@ -6706,41 +6706,14 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
@@ -6748,8 +6721,35 @@
           "zone": "Couloirs"
         },
         {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "SDC"
+        },
+        {
           "chambre": "CH104",
-          "eleve": "THUNOT",
+          "eleve": "LALLEMAND",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6782,12 +6782,12 @@
       "section": [
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUMORTIER",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Bureau CDS"
         },
         {
@@ -6796,18 +6796,18 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
           "zone": "SDC"
         }
       ],
@@ -6819,17 +6819,17 @@
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "CAMARA",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Douche"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DA SILVA",
           "zone": "Douche"
         },
         {
@@ -6870,50 +6870,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "BOURGES-BIGOTTE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "SDC"
         },
         {
           "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "eleve": "HUCKEL",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH103",
-          "eleve": "COLLAS",
+          "eleve": "DUMORTIER",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -6950,50 +6950,50 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "SDC"
         },
         {
           "chambre": "CH104",
           "eleve": "DROUET",
           "zone": "SDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "MOINE",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Douche"
         },
         {
@@ -7021,32 +7021,32 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
+          "eleve": "FAVRAY",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "ROBERT",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "GOIGOUX",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "eleve": "GAZON",
           "zone": "SDC"
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "SDC"
         }
       ],
@@ -7096,7 +7096,7 @@
       "section": [
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "CAMARA",
           "zone": "Bureau CDS"
         },
         {
@@ -7110,25 +7110,25 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "Toilettes"
         },
         {
@@ -7137,13 +7137,13 @@
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Douche"
         },
         {
@@ -7170,18 +7170,18 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH105",
           "eleve": "MOINE",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
@@ -7190,8 +7190,8 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "SDC"
         },
         {
@@ -7202,18 +7202,18 @@
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "Couloirs"
-        },
-        {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DA SILVA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -7259,55 +7259,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH108",
           "eleve": "RION",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Couloirs"
         },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
         {
           "chambre": "CH106",
           "eleve": "GAZON",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Toilettes"
-        },
-        {
           "chambre": "CH103",
-          "eleve": "COLLAS",
+          "eleve": "DUHEN",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Douche"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "FERRATON",
           "zone": "Douche"
         },
         {
@@ -7334,8 +7334,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Bureau CDS"
         },
         {
@@ -7345,17 +7345,17 @@
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "THUNOT",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         },
         {
@@ -7366,18 +7366,18 @@
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Couloirs"
-        },
-        {
           "chambre": "CH103",
           "eleve": "DUMORTIER",
           "zone": "Couloirs"
         },
         {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Couloirs"
+        },
+        {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -7409,55 +7409,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Couloirs"
-        },
-        {
           "chambre": "CH105",
           "eleve": "LANOOTE",
-          "zone": "Toilettes"
+          "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
-          "zone": "SDC"
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
           "eleve": "FAVRAY",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "MOINE",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "ROBERT",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Douche"
         },
         {
@@ -7484,8 +7484,8 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Bureau CDS"
         },
         {
@@ -7495,39 +7495,39 @@
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "eleve": "FESTA",
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
-          "eleve": "THUNOT",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -7559,55 +7559,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH103",
-          "eleve": "COLLAS",
-          "zone": "Couloirs"
+          "eleve": "DUMORTIER",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "JACHIET-FAIVRE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         },
         {
           "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "eleve": "FAVRAY",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Douche"
         },
         {
@@ -7653,13 +7653,13 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Couloirs"
         },
         {
@@ -7668,30 +7668,30 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -7723,55 +7723,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Couloirs"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         },
         {
           "chambre": "CH104",
-          "eleve": "THUNOT",
+          "eleve": "DROUET",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
-          "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
-          "zone": "Douche"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "zone": "Pédiluve"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Douche"
         },
         {
@@ -7798,18 +7798,18 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
@@ -7818,22 +7818,17 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "SDC"
         },
         {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
+          "eleve": "DA SILVA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "Couloirs"
-        },
         {
           "chambre": "CH106",
           "eleve": "GAZON",
@@ -7841,7 +7836,12 @@
         },
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "HUCKEL",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -7873,40 +7873,40 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "RION",
-          "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Toilettes"
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
           "eleve": "COLLAS",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "SDC"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Toilettes"
         },
         {
@@ -7915,13 +7915,13 @@
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Douche"
         },
         {
           "chambre": "CH104",
-          "eleve": "FERRATON",
+          "eleve": "FAVRAY",
           "zone": "Douche"
         },
         {
@@ -7948,37 +7948,15 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
           "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Couloirs"
+          "zone": "Bureau CDS"
         },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
         {
           "chambre": "CH105",
           "eleve": "LANOOTE",
@@ -7987,11 +7965,33 @@
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FERRATON",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
+        {
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8037,23 +8037,23 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
-          "eleve": "CAMARA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "GAZON",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Toilettes"
         },
         {
@@ -8062,30 +8062,30 @@
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Pédiluve"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Douche"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Douche"
         },
         {
@@ -8112,50 +8112,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "RION",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "TALACCHIA",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "THUNOT",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8187,13 +8187,13 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Bureau CDS"
         },
         {
@@ -8202,30 +8202,30 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "MOINE",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Pédiluve"
         },
         {
@@ -8263,27 +8263,27 @@
       "section": [
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "DA SILVA",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
-          "eleve": "FESTA",
+          "eleve": "HUCKEL",
           "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
-          "zone": "Couloirs"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "SDC"
         },
         {
@@ -8294,18 +8294,18 @@
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH103",
+          "eleve": "COLLAS",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8337,55 +8337,55 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "eleve": "DROUET",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH106",
+          "eleve": "GOIGOUX",
           "zone": "SDC"
         },
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
-          "zone": "Douche"
         },
         {
           "chambre": "CH104",
           "eleve": "THUNOT",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "Douche"
         },
         {
@@ -8426,50 +8426,50 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
-          "zone": "Couloirs"
-        },
-        {
           "chambre": "CH106",
-          "eleve": "GOIGOUX",
-          "zone": "Toilettes"
+          "eleve": "CAMARA",
+          "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
           "eleve": "RION",
-          "zone": "SDC"
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH108",
-          "eleve": "FESTA",
+          "eleve": "HUCKEL",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
-          "eleve": "GAZON",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8506,50 +8506,50 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH103",
-          "eleve": "DUHEN",
+          "eleve": "COLLAS",
           "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH103",
+          "eleve": "DUHEN",
+          "zone": "Toilettes"
         },
         {
           "chambre": "CH104",
           "eleve": "LALLEMAND",
-          "zone": "Toilettes"
+          "zone": "SDC"
         },
         {
           "chambre": "CH104",
           "eleve": "DROUET",
           "zone": "SDC"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
-          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Pédiluve"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "Douche"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
+          "zone": "Douche"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "GAZON",
           "zone": "Douche"
         },
         {
@@ -8591,35 +8591,35 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "SDC"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH105",
+          "eleve": "MOINE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH105",
+          "eleve": "RACHEZ",
+          "zone": "Couloirs"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH106",
           "eleve": "DA SILVA",
-          "zone": "Couloirs"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8662,7 +8662,7 @@
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "TALACCHIA",
           "zone": "Couloirs"
         },
         {
@@ -8699,7 +8699,7 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "eleve": "ROBERT",
           "zone": "Douche"
         },
         {
@@ -8746,25 +8746,25 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "SDC"
         },
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "LANOOTE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "MOINE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Couloirs"
         },
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
           "zone": "Couloirs"
         },
         {
@@ -8816,7 +8816,7 @@
       "section": [
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "RACHEZ",
           "zone": "Bureau CDS"
         },
         {
@@ -8890,13 +8890,13 @@
       "motif": null,
       "section": [
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH103",
+          "eleve": "DUHEN",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "DROUET",
           "zone": "Bureau CDS"
         },
         {
@@ -8905,25 +8905,25 @@
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "SDC"
         },
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "DROUET",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Couloirs"
         },
         {
@@ -8933,7 +8933,7 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "eleve": "MOINE",
           "zone": "Escaliers (+ hall)"
         },
         {
@@ -8976,44 +8976,44 @@
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "RACHEZ",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
+          "zone": "SDC"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
           "zone": "SDC"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
-          "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH108",
-          "eleve": "RION",
+          "eleve": "TALACCHIA",
           "zone": "Douche"
         },
         {
-          "chambre": "CH108",
-          "eleve": "TALACCHIA",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Douche"
         },
         {
@@ -9045,13 +9045,13 @@
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
+          "chambre": "CH108",
+          "eleve": "RION",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH108",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
@@ -9060,25 +9060,25 @@
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "chambre": "CH103",
+          "eleve": "DUMORTIER",
           "zone": "SDC"
         },
         {
-          "chambre": "CH108",
-          "eleve": "FESTA",
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "COLLAS",
+          "chambre": "CH108",
+          "eleve": "FESTA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUHEN",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Couloirs"
         },
         {
@@ -9115,45 +9115,45 @@
       "motif": null,
       "section": [
         {
+          "chambre": "CH103",
+          "eleve": "COLLAS",
+          "zone": "Bureau CDS"
+        },
+        {
           "chambre": "CH104",
           "eleve": "FAVRAY",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
-          "zone": "Bureau CDS"
-        },
-        {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
+          "eleve": "DUHEN",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "FERRATON",
           "zone": "SDC"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "RACHEZ",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH104",
-          "eleve": "FERRATON",
+          "chambre": "CH105",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Pédiluve"
         },
         {
@@ -9162,8 +9162,8 @@
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "DA SILVA",
+          "chambre": "CH108",
+          "eleve": "HUCKEL",
           "zone": "Douche"
         },
         {
@@ -9205,27 +9205,27 @@
       "section": [
         {
           "chambre": "CH105",
-          "eleve": "RACHEZ",
+          "eleve": "MOINE",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH106",
           "eleve": "GOIGOUX",
-          "zone": "Bureau CDS"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH106",
+          "eleve": "DA SILVA",
           "zone": "Toilettes"
         },
         {
           "chambre": "CH106",
-          "eleve": "BOURGES-BIGOTTE",
+          "eleve": "GAZON",
           "zone": "SDC"
         },
         {
@@ -9237,7 +9237,7 @@
       "compagnie": [
         {
           "chambre": "CH108",
-          "eleve": "HUCKEL",
+          "eleve": "FOUGEREUX",
           "zone": "Couloirs"
         },
         {
@@ -9280,19 +9280,36 @@
       "section": [
         {
           "chambre": "CH104",
-          "eleve": "DROUET",
+          "eleve": "LALLEMAND",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH105",
-          "eleve": "MOINE",
+          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
           "zone": "Bureau CDS"
         },
         {
           "chambre": "CH108",
-          "eleve": "FOUGEREUX",
+          "eleve": "FESTA",
           "zone": "Couloirs"
         },
+        {
+          "chambre": "CH104",
+          "eleve": "DROUET",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "BOURGES-BIGOTTE",
+          "zone": "SDC"
+        },
+        {
+          "chambre": "CH104",
+          "eleve": "FAVRAY",
+          "zone": "SDC"
+        }
+      ],
+      "compagnie": [
         {
           "chambre": "CH103",
           "eleve": "DUHEN",
@@ -9300,34 +9317,17 @@
         },
         {
           "chambre": "CH103",
-          "eleve": "JACHIET-FAIVRE",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "LALLEMAND",
-          "zone": "SDC"
-        }
-      ],
-      "compagnie": [
-        {
-          "chambre": "CH108",
-          "eleve": "FESTA",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH104",
-          "eleve": "FAVRAY",
+          "eleve": "DUMORTIER",
           "zone": "Pédiluve"
         },
         {
           "chambre": "CH105",
-          "eleve": "ROBERT",
+          "eleve": "RACHEZ",
           "zone": "Douche"
         },
         {
-          "chambre": "CH106",
-          "eleve": "GAZON",
+          "chambre": "CH105",
+          "eleve": "LANOOTE",
           "zone": "Douche"
         },
         {
@@ -9355,49 +9355,49 @@
       "section": [
         {
           "chambre": "CH106",
+          "eleve": "GOIGOUX",
+          "zone": "Bureau CDS"
+        },
+        {
+          "chambre": "CH106",
           "eleve": "DA SILVA",
           "zone": "Bureau CDS"
         },
         {
-          "chambre": "CH108",
-          "eleve": "RION",
-          "zone": "Bureau CDS"
+          "chambre": "CH103",
+          "eleve": "JACHIET-FAIVRE",
+          "zone": "Couloirs"
         },
         {
-          "chambre": "CH104",
-          "eleve": "THUNOT",
-          "zone": "Couloirs"
+          "chambre": "CH105",
+          "eleve": "MOINE",
+          "zone": "Toilettes"
+        },
+        {
+          "chambre": "CH106",
+          "eleve": "CAMARA",
+          "zone": "SDC"
         },
         {
           "chambre": "CH104",
           "eleve": "FERRATON",
-          "zone": "Toilettes"
-        },
-        {
-          "chambre": "CH105",
-          "eleve": "RACHEZ",
-          "zone": "SDC"
-        },
-        {
-          "chambre": "CH106",
-          "eleve": "GAZON",
           "zone": "SDC"
         }
       ],
       "compagnie": [
         {
-          "chambre": "CH103",
-          "eleve": "DUMORTIER",
+          "chambre": "CH105",
+          "eleve": "ROBERT",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "ALEXANDRE-DIT-LAPERDRIX",
+          "chambre": "CH108",
+          "eleve": "TALACCHIA",
           "zone": "Couloirs"
         },
         {
-          "chambre": "CH105",
-          "eleve": "LANOOTE",
+          "chambre": "CH104",
+          "eleve": "THUNOT",
           "zone": "Escaliers (+ hall)"
         },
         {
