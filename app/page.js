@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import planningData from "@/data/planning.json";
 
 // ---------------------------------------------------------------------------
@@ -169,30 +169,108 @@ function clampDate(str) {
   return str;
 }
 
+const TODAY_ISO = toISODateUTC(new Date());
+
 function defaultDate() {
-  const today = toISODateUTC(new Date());
-  return clampDate(today);
+  return clampDate(TODAY_ISO);
 }
 
-const STAIR_ICON = (
-  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#1c2541" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M3 21h4v-4h4v-4h4v-4h4V5" />
+// Jeu d'icônes unifié (trait fin, même style) — remplace les emoji, dont le
+// rendu varie selon l'OS du visiteur.
+const ICON_PROPS = {
+  viewBox: "0 0 24 24",
+  width: 20,
+  height: 20,
+  fill: "none",
+  stroke: "currentColor",
+  strokeWidth: 1.8,
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+};
+
+const ZONE_ICONS = {
+  "Bureau CDS": (
+    <svg {...ICON_PROPS}>
+      <rect x="4" y="3" width="16" height="18" rx="1" />
+      <path d="M9 8h1M14 8h1M9 12h1M14 12h1M9 16h1M14 16h1" />
+      <path d="M10 21v-4h4v4" />
+    </svg>
+  ),
+  Couloirs: (
+    <svg {...ICON_PROPS}>
+      <rect x="5" y="2" width="12" height="20" rx="1" />
+      <circle cx="14.5" cy="12" r="0.8" fill="currentColor" stroke="none" />
+    </svg>
+  ),
+  Toilettes: (
+    <svg {...ICON_PROPS}>
+      <path d="M6 12V5a2 2 0 0 1 2-2h2v9" />
+      <path d="M6 12h12v3a5 5 0 0 1-5 5H9a5 5 0 0 1-3-1" />
+      <path d="M4 20h16" />
+    </svg>
+  ),
+  SDC: (
+    <svg {...ICON_PROPS}>
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+    </svg>
+  ),
+  Pédiluve: (
+    <svg {...ICON_PROPS}>
+      <path d="M3 15c1-3 3-4 5-4h8c2 0 4 1 5 4" />
+      <path d="M5 15v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2" />
+      <path d="M8 11c0-2 1-3 2-3M14 11c0-2 1-3 2-3" />
+    </svg>
+  ),
+  Douche: (
+    <svg {...ICON_PROPS}>
+      <path d="M6 3h12" />
+      <path d="M8 3v2a4 4 0 0 0 8 0V3" />
+      <path d="M12 9v3" />
+      <path d="M8 20c0-3 2-5 4-5s4 2 4 5" />
+      <path d="M6 20h12" />
+    </svg>
+  ),
+  "Escaliers (+ hall)": (
+    <svg {...ICON_PROPS}>
+      <path d="M3 21h4v-4h4v-4h4v-4h4V5" />
+    </svg>
+  ),
+};
+
+const DEFAULT_ICON = (
+  <svg {...ICON_PROPS}>
+    <circle cx="12" cy="12" r="8" />
   </svg>
 );
 
-const ZONE_ICONS = {
-  "Bureau CDS": "🏢",
-  "Couloirs": "🚪",
-  "Toilettes": "🚽",
-  "SDC": "📘",
-  "Pédiluve": "👟",
-  "Douche": "🚿",
-  "Escaliers (+ hall)": STAIR_ICON,
-};
-
 function ZoneIcon({ zone }) {
-  const icon = ZONE_ICONS[zone] ?? "📌";
-  return <span className="icon-circle">{icon}</span>;
+  return <span className="icon-circle">{ZONE_ICONS[zone] ?? DEFAULT_ICON}</span>;
+}
+
+function MoonIcon(props) {
+  return (
+    <svg {...ICON_PROPS} {...props}>
+      <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z" />
+    </svg>
+  );
+}
+
+function SunIcon(props) {
+  return (
+    <svg {...ICON_PROPS} {...props}>
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4 12H2M22 12h-2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+    </svg>
+  );
+}
+
+function ChevronRightIcon(props) {
+  return (
+    <svg {...ICON_PROPS} {...props}>
+      <path d="M9 6l6 6-6 6" />
+    </svg>
+  );
 }
 
 function groupByZone(entries) {
@@ -202,6 +280,87 @@ function groupByZone(entries) {
     map[entry.zone].push(entry);
   }
   return map;
+}
+
+function useTheme() {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    let initial = "light";
+    try {
+      const stored = localStorage.getItem("theme");
+      initial =
+        stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch {
+      // ignore (stockage indisponible)
+    }
+    setTheme(initial);
+    document.documentElement.dataset.theme = initial;
+  }, []);
+
+  const toggle = () => {
+    setTheme((prev) => {
+      const next = prev === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem("theme", next);
+      } catch {
+        // ignore
+      }
+      return next;
+    });
+  };
+
+  return { theme, toggle };
+}
+
+// Ligne de navigation (flèches + contenu central) qui ne se casse jamais sur
+// mobile : les flèches restent sur la même ligne, seul le contenu central
+// peut rétrécir.
+function NavRow({ onPrev, onNext, prevDisabled, nextDisabled, children }) {
+  return (
+    <div className="date-nav">
+      <div className="date-nav-row">
+        <button
+          type="button"
+          className="date-nav-arrow"
+          onClick={onPrev}
+          disabled={prevDisabled}
+          aria-label="Précédent"
+        >
+          ←
+        </button>
+        <div className="date-center">{children}</div>
+        <button
+          type="button"
+          className="date-nav-arrow"
+          onClick={onNext}
+          disabled={nextDisabled}
+          aria-label="Suivant"
+        >
+          →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// Tableau avec première colonne figée au scroll horizontal + indice visuel
+// (dégradé + texte) pour les écrans étroits.
+function TableScroll({ title, children }) {
+  return (
+    <div className="table-wrap">
+      <h2>{title}</h2>
+      <div className="table-scroll">
+        {children}
+        <div className="scroll-fade" />
+      </div>
+      <div className="scroll-hint">
+        <ChevronRightIcon width={14} height={14} />
+        Glisser pour voir plus de colonnes
+      </div>
+    </div>
+  );
 }
 
 // Quand une zone a plusieurs élèves le même jour (ex. "SDC" x2), chacun
@@ -233,6 +392,7 @@ export default function Page() {
     const d = defaultDate();
     return monthKey(d);
   });
+  const { theme, toggle } = useTheme();
 
   return (
     <div className="page">
@@ -244,6 +404,14 @@ export default function Page() {
             <p className="brand-subtitle">395<sup>e</sup> promotion · 4<sup>e</sup> bataillon</p>
           </div>
         </div>
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={toggle}
+          aria-label="Changer de thème"
+        >
+          {theme === "dark" ? <SunIcon width={18} height={18} /> : <MoonIcon width={18} height={18} />}
+        </button>
         <nav className="tabs">
           {TABS.map((tab) => (
             <button
@@ -297,7 +465,10 @@ function VueJour({ selectedDate, onChangeDate }) {
       {!jour ? (
         <p>Aucune donnée pour cette date.</p>
       ) : !jour.tig ? (
-        <p className="motif-banner">Pas de TIG — {jour.motif}</p>
+        <div className="motif-banner">
+          <MoonIcon width={18} height={18} />
+          Pas de TIG — {jour.motif}
+        </div>
       ) : (
         <div className="jour-grid">
           <PosteCards title="TIG section" entries={jour.section} category="section" />
@@ -317,40 +488,32 @@ function VueJour({ selectedDate, onChangeDate }) {
 function DateNav({ selectedDate, onChangeDate }) {
   const jour = JOURS_BY_DATE.get(selectedDate);
   return (
-    <div className="date-nav">
-      <button
-        type="button"
-        className="date-nav-arrow"
-        onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, -1)))}
-        aria-label="Jour précédent"
-      >
-        ←
-      </button>
-      <div className="date-center">
-        <input
-          type="date"
-          value={selectedDate}
-          min={MIN_DATE}
-          max={MAX_DATE}
-          onChange={(e) => e.target.value && onChangeDate(e.target.value)}
-        />
-        <div className="date-nav-label">{formatDateLong(selectedDate)}</div>
-        {jour?.lettre && (
-          <div className="letter-badge">
-            <span className="dot" />
-            Jour {jour.lettre}
-          </div>
-        )}
-      </div>
-      <button
-        type="button"
-        className="date-nav-arrow"
-        onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, 1)))}
-        aria-label="Jour suivant"
-      >
-        →
-      </button>
-    </div>
+    <NavRow
+      onPrev={() => onChangeDate(clampDate(addDaysISO(selectedDate, -1)))}
+      onNext={() => onChangeDate(clampDate(addDaysISO(selectedDate, 1)))}
+      prevDisabled={selectedDate <= MIN_DATE}
+      nextDisabled={selectedDate >= MAX_DATE}
+    >
+      <input
+        type="date"
+        value={selectedDate}
+        min={MIN_DATE}
+        max={MAX_DATE}
+        onChange={(e) => e.target.value && onChangeDate(e.target.value)}
+      />
+      <div className="date-nav-label">{formatDateLong(selectedDate)}</div>
+      {(jour?.lettre || selectedDate === TODAY_ISO) && (
+        <div className="badge-row">
+          {selectedDate === TODAY_ISO && <span className="today-badge">Aujourd&apos;hui</span>}
+          {jour?.lettre && (
+            <div className="letter-badge">
+              <span className="dot" />
+              Jour {jour.lettre}
+            </div>
+          )}
+        </div>
+      )}
+    </NavRow>
   );
 }
 
@@ -400,23 +563,14 @@ function VueSemaine({ selectedDate, onChangeDate }) {
 
   return (
     <section>
-      <div className="date-nav">
-        <button
-          type="button"
-          onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, -7)))}
-        >
-          ← Semaine préc.
-        </button>
-        <span className="date-nav-label">
-          Semaine du {formatDateShort(monday)}
-        </span>
-        <button
-          type="button"
-          onClick={() => onChangeDate(clampDate(addDaysISO(selectedDate, 7)))}
-        >
-          Semaine suiv. →
-        </button>
-      </div>
+      <NavRow
+        onPrev={() => onChangeDate(clampDate(addDaysISO(selectedDate, -7)))}
+        onNext={() => onChangeDate(clampDate(addDaysISO(selectedDate, 7)))}
+        prevDisabled={monday <= MIN_DATE}
+        nextDisabled={addDaysISO(monday, 7) > MAX_DATE}
+      >
+        <div className="date-nav-label">Semaine du {formatDateShort(monday)}</div>
+      </NavRow>
 
       <SemaineTable title="TIG section" zones={ZONES_SECTION} dates={weekDates} field="section" category="section" />
       <SemaineTable
@@ -432,8 +586,7 @@ function VueSemaine({ selectedDate, onChangeDate }) {
 
 function SemaineTable({ title, zones, dates, field, category }) {
   return (
-    <div className="table-wrap">
-      <h2>{title}</h2>
+    <TableScroll title={title}>
       <table>
         <thead>
           <tr>
@@ -468,7 +621,7 @@ function SemaineTable({ title, zones, dates, field, category }) {
           ))}
         </tbody>
       </table>
-    </div>
+    </TableScroll>
   );
 }
 
@@ -488,27 +641,18 @@ function VueMois({ visibleMonth, onChangeMonth }) {
 
   return (
     <section>
-      <div className="date-nav">
-        <button
-          type="button"
-          disabled={!canPrev}
-          onClick={() => canPrev && onChangeMonth(MOIS_DISPONIBLES[idx - 1].key)}
-        >
-          ← Mois préc.
-        </button>
-        <span className="date-nav-label">
+      <NavRow
+        onPrev={() => canPrev && onChangeMonth(MOIS_DISPONIBLES[idx - 1].key)}
+        onNext={() => canNext && onChangeMonth(MOIS_DISPONIBLES[idx + 1].key)}
+        prevDisabled={!canPrev}
+        nextDisabled={!canNext}
+      >
+        <div className="date-nav-label">
           {MOIS_FR_LONG[current.month].charAt(0).toUpperCase() +
             MOIS_FR_LONG[current.month].slice(1)}{" "}
           {current.year}
-        </span>
-        <button
-          type="button"
-          disabled={!canNext}
-          onClick={() => canNext && onChangeMonth(MOIS_DISPONIBLES[idx + 1].key)}
-        >
-          Mois suiv. →
-        </button>
-      </div>
+        </div>
+      </NavRow>
 
       <MoisTable title="TIG section" zones={ZONES_SECTION} dates={monthDates} field="section" category="section" />
       <MoisTable
@@ -524,8 +668,7 @@ function VueMois({ visibleMonth, onChangeMonth }) {
 
 function MoisTable({ title, zones, dates, field, category }) {
   return (
-    <div className="table-wrap">
-      <h2>{title}</h2>
+    <TableScroll title={title}>
       <table>
         <thead>
           <tr>
@@ -565,7 +708,7 @@ function MoisTable({ title, zones, dates, field, category }) {
           })}
         </tbody>
       </table>
-    </div>
+    </TableScroll>
   );
 }
 
@@ -594,7 +737,10 @@ function VueChambre({ selectedDate, onChangeDate }) {
       <DateNav selectedDate={selectedDate} onChangeDate={onChangeDate} />
 
       {!jour.tig && (
-        <p className="motif-banner">Pas de TIG — {jour.motif}</p>
+        <div className="motif-banner">
+          <MoonIcon width={18} height={18} />
+          Pas de TIG — {jour.motif}
+        </div>
       )}
 
       <div className="legend">
@@ -678,8 +824,7 @@ function VueRecap() {
 
   return (
     <section>
-      <div className="table-wrap">
-        <h2>Récapitulatif par élève</h2>
+      <TableScroll title="Récapitulatif par élève">
         <table>
           <thead>
             <tr>
@@ -704,7 +849,7 @@ function VueRecap() {
             ))}
           </tbody>
         </table>
-      </div>
+      </TableScroll>
     </section>
   );
 }

@@ -14,14 +14,55 @@
   --color-text-muted: #70778f;
   --color-primary: #1c2541;
   --color-primary-contrast: #ffffff;
-  --color-section: var(--navy);
+  --color-section: var(--navy-light);
   --color-section-bg: #e8ecf7;
   --color-compagnie: var(--garnet);
   --color-compagnie-bg: var(--garnet-light);
   --color-motif-bg: var(--gold-light);
   --color-motif-text: #8a6a1f;
-  --radius: 10px;
-  --shadow: 0 10px 26px rgba(20, 25, 50, 0.07);
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --radius: var(--r-sm);
+  --shadow: 0 6px 16px rgba(20, 25, 50, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --navy: #0d1326;
+    --navy-light: #1a2440;
+    --gold: #e3bd6c;
+    --gold-light: #3a311d;
+    --garnet: #e1738a;
+    --garnet-light: #3a1f26;
+    --color-bg: #14182a;
+    --color-surface: #1c2238;
+    --color-border: #2c324a;
+    --color-text: #edeef3;
+    --color-text-muted: #9099b5;
+    --color-section: #8fa3ec;
+    --color-section-bg: #222b48;
+    --color-motif-text: var(--gold);
+    --shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+  }
+}
+
+:root[data-theme="dark"] {
+  --navy: #0d1326;
+  --navy-light: #1a2440;
+  --gold: #e3bd6c;
+  --gold-light: #3a311d;
+  --garnet: #e1738a;
+  --garnet-light: #3a1f26;
+  --color-bg: #14182a;
+  --color-surface: #1c2238;
+  --color-border: #2c324a;
+  --color-text: #edeef3;
+  --color-text-muted: #9099b5;
+  --color-section: #8fa3ec;
+  --color-section-bg: #222b48;
+  --color-motif-text: var(--gold);
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
 
 * {
@@ -40,6 +81,7 @@ body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
   line-height: 1.4;
+  transition: background 0.2s, color 0.2s;
 }
 
 h1,
@@ -58,7 +100,7 @@ h2,
 
 .app-header {
   position: relative;
-  background: linear-gradient(135deg, var(--navy) 0%, #10172c 100%);
+  background: linear-gradient(135deg, var(--navy) 0%, #070a16 100%);
   overflow: hidden;
   padding: 24px 20px 56px;
   display: flex;
@@ -100,7 +142,7 @@ h2,
 .brand-badge {
   width: 46px;
   height: 46px;
-  border-radius: 13px;
+  border-radius: var(--r-sm);
   background: linear-gradient(145deg, var(--gold), #b9872f);
   display: flex;
   align-items: center;
@@ -121,11 +163,40 @@ h2,
 }
 
 .brand-subtitle {
-  margin: 2px 0 0;
+  margin: 3px 0 0;
   color: #b9c0d6;
   font-size: 0.74rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+
+.brand-subtitle sup {
+  font-size: 0.65em;
+  position: relative;
+  top: -0.35em;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .tabs {
@@ -176,40 +247,27 @@ h2,
 
 .date-nav {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 14px;
   background: var(--color-surface);
-  border-radius: 20px;
-  padding: 16px 24px;
+  border-radius: var(--r-lg);
+  padding: 16px 20px;
   margin: -36px 0 20px;
   box-shadow: 0 20px 40px rgba(10, 15, 35, 0.22);
 }
 
-.date-nav button {
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
-  color: var(--navy);
-  padding: 8px 16px;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
+.date-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.date-nav button:hover:not(:disabled) {
-  border-color: var(--navy);
-}
-
-.date-nav button.date-nav-arrow {
+.date-nav-arrow {
   border: none;
   box-shadow: var(--shadow);
   border-radius: 999px;
   width: 40px;
   height: 40px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
@@ -217,14 +275,21 @@ h2,
   flex: none;
   padding: 0;
   background: var(--color-bg);
+  cursor: pointer;
 }
 
-.date-nav button:disabled {
+.date-nav-arrow:hover:not(:disabled) {
+  color: var(--navy);
+}
+
+.date-nav-arrow:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
 
 .date-center {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,23 +308,49 @@ h2,
 
 .date-nav-label {
   text-align: center;
-  color: var(--navy);
+  color: var(--color-text);
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   font-size: 1.05rem;
 }
 
-.letter-badge {
+.badge-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letter-badge,
+.today-badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--gold-light);
-  color: #8a6a1f;
   font-weight: 700;
   font-size: 0.74rem;
   letter-spacing: 0.04em;
   padding: 4px 12px;
   border-radius: 999px;
+}
+
+.letter-badge {
+  background: var(--gold-light);
+  color: #8a6a1f;
+}
+
+:root[data-theme="dark"] .letter-badge {
+  color: var(--gold);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .letter-badge {
+    color: var(--gold);
+  }
+}
+
+.today-badge {
+  background: var(--garnet-light);
+  color: var(--garnet);
 }
 
 .letter-badge .dot {
@@ -270,12 +361,18 @@ h2,
 }
 
 .motif-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: var(--color-motif-bg);
   color: var(--color-motif-text);
-  border: 1px solid #e8cf96;
-  border-radius: var(--radius);
-  padding: 10px 14px;
+  border-radius: var(--r-md);
+  padding: 12px 16px;
   font-weight: 600;
+}
+
+.motif-banner svg {
+  flex: none;
 }
 
 /* ---------- Vue Jour : cartes de postes ---------- */
@@ -307,7 +404,7 @@ h2,
 }
 
 .group-head.section .bar {
-  background: var(--navy);
+  background: var(--color-section);
 }
 
 .group-head.compagnie .bar {
@@ -344,17 +441,17 @@ h2,
 
 .poste-card {
   background: var(--color-surface);
-  border-radius: 16px;
+  border-radius: var(--r-md);
   box-shadow: var(--shadow);
   padding: 14px 16px;
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  border-left: 4px solid transparent;
+  border-left: 3px solid transparent;
 }
 
 .poste-card.section {
-  border-left-color: var(--navy);
+  border-left-color: var(--color-section);
 }
 
 .poste-card.compagnie {
@@ -369,21 +466,23 @@ h2,
 .icon-circle {
   width: 40px;
   height: 40px;
-  border-radius: 11px;
+  border-radius: var(--r-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.15rem;
   flex: none;
-  background: #f1f1f1;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
 }
 
 .poste-card.section .icon-circle {
   background: var(--color-section-bg);
+  color: var(--color-section);
 }
 
 .poste-card.compagnie .icon-circle {
   background: var(--garnet-light);
+  color: var(--garnet);
 }
 
 .card-body {
@@ -413,7 +512,7 @@ h2,
 }
 
 .poste-card.autre .poste-card-eleve {
-  color: #9ba0b4;
+  color: var(--color-text-muted);
   font-style: italic;
   font-weight: 600;
 }
@@ -422,7 +521,7 @@ h2,
   font-size: 0.78rem;
   font-weight: 700;
   margin-top: 2px;
-  color: var(--navy);
+  color: var(--color-section);
 }
 
 .poste-card.compagnie .poste-card-chambre {
@@ -430,7 +529,7 @@ h2,
 }
 
 .poste-card.autre .poste-card-chambre {
-  color: #9ba0b4;
+  color: var(--color-text-muted);
 }
 
 /* ---------- Pastilles multi-élèves (Semaine / Mois) ---------- */
@@ -452,7 +551,7 @@ h2,
 
 .name-chip.section {
   background: var(--color-section-bg);
-  color: var(--navy);
+  color: var(--color-section);
 }
 
 .name-chip.compagnie {
@@ -461,25 +560,30 @@ h2,
 }
 
 .name-chip.autre {
-  background: #eee;
-  color: #9ba0b4;
+  background: var(--color-border);
+  color: var(--color-text-muted);
   font-style: italic;
 }
 
 /* ---------- Tableaux (Semaine / Mois / Récap) ---------- */
 
 .table-wrap {
-  overflow-x: auto;
+  position: relative;
   margin-bottom: 24px;
   background: var(--color-surface);
-  border-radius: 20px;
-  padding: 18px;
+  border-radius: var(--r-lg);
   box-shadow: var(--shadow);
+  overflow: hidden;
 }
 
 .table-wrap h2 {
   font-size: 0.98rem;
-  margin: 2px 8px 14px;
+  margin: 16px 18px;
+}
+
+.table-scroll {
+  position: relative;
+  overflow-x: auto;
 }
 
 table {
@@ -496,6 +600,7 @@ td {
   text-align: left;
   white-space: nowrap;
   border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
 }
 
 thead th {
@@ -508,16 +613,43 @@ thead th {
   border-bottom: none;
 }
 
-thead th:first-child {
-  border-top-left-radius: 10px;
-}
-
-thead th:last-child {
-  border-top-right-radius: 10px;
-}
-
 tbody tr:last-child td {
   border-bottom: none;
+}
+
+th:first-child,
+td:first-child {
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+  z-index: 1;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.06);
+  font-weight: 700;
+}
+
+thead th:first-child {
+  background: var(--navy);
+}
+
+.scroll-fade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 28px;
+  background: linear-gradient(90deg, transparent, var(--color-surface));
+  pointer-events: none;
+}
+
+.scroll-hint {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .motif-cell {
@@ -534,7 +666,7 @@ tr.row-off td {
 
 .total-cell {
   font-weight: 800;
-  color: var(--navy);
+  color: var(--color-text);
   background: var(--gold-light);
   border-radius: 8px;
   text-align: center;
@@ -564,7 +696,7 @@ tr.row-off td {
 }
 
 .legend-swatch--section {
-  background: var(--navy);
+  background: var(--color-section);
 }
 
 .legend-swatch--compagnie {
@@ -591,7 +723,7 @@ tr.row-off td {
 
 .chambre-card {
   background: var(--color-surface);
-  border-radius: 18px;
+  border-radius: var(--r-lg);
   padding: 16px 18px;
   box-shadow: var(--shadow);
 }
@@ -618,11 +750,10 @@ tr.row-off td {
   justify-content: space-between;
   align-items: center;
   padding: 8px 10px;
-  border-radius: 10px;
+  border-radius: var(--r-sm);
   margin-bottom: 6px;
   font-size: 0.9rem;
-  font-weight: 600;
-  background: #faf9f6;
+  background: var(--color-bg);
   color: var(--color-text-muted);
   font-weight: 500;
 }
@@ -635,12 +766,12 @@ tr.row-off td {
 
 .eleve-row--section {
   background: var(--color-section-bg);
-  color: var(--navy);
+  color: var(--color-section);
   font-weight: 600;
 }
 
 .eleve-row--section .task {
-  color: var(--navy);
+  color: var(--color-section);
 }
 
 .eleve-row--compagnie {
