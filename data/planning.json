@@ -1998,13 +1998,13 @@
       ],
       "compagnie": [
         {
-          "chambre": "CH105",
-          "eleve": "ROBERT",
+          "chambre": "CH106",
+          "eleve": "CAMARA",
           "zone": "Toilettes"
         },
         {
-          "chambre": "CH106",
-          "eleve": "CAMARA",
+          "chambre": "CH104",
+          "eleve": "LALLEMAND",
           "zone": "Pédiluve"
         },
         {
